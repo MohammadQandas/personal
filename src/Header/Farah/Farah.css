@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Audiowide";
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  overflow: hidden;
+  
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid crimson 1px;
+}
+.container .box {
+  transform-style: preserve-3d;
+  animation: animate 30s ease-in-out infinite alternate ;   
+}
+@keyframes animate {
+     0%{
+      transform: perspective(1000px) rotateX(0deg) rotate(0deg)
+    }
+    100%{
+        transform: perspective(1000px) rotateX(360deg) rotate(10deg)
+    }
+}
+
+.container .box span {
+  position: absolute;
+  color: rgb(245, 245, 245);
+  font-size: 3.5em;
+  font-weight: 900;
+  text-align: center;
+  white-space: nowrap;
+  padding: 0 10px;
+  background: linear-gradient(90deg,transparent,rgba(0,0,0,0.5),transparent);
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  
+}
+.span1{
+    transform: translate(-50%,-50%) rotateX(calc(1 * 22.5deg)) translateZ(100px);
+}
+.span2{
+    transform: translate(-50%,-50%) rotateX(calc(2 * 22.5deg)) translateZ(100px);
+}
+.span3{
+    transform: translate(-50%,-50%) rotateX(calc(3 * 22.5deg)) translateZ(100px);
+}
+.span4{
+    transform: translate(-50%,-50%) rotateX(calc(4 * 22.5deg)) translateZ(100px);
+}
+.span5{
+    transform: translate(-50%,-50%) rotateX(calc(5 * 22.5deg)) translateZ(100px);
+}
+.span6{
+    transform: translate(-50%,-50%) rotateX(calc(6 * 22.5deg)) translateZ(100px);
+}
+.span7{
+    transform: translate(-50%,-50%) rotateX(calc(7 * 22.5deg)) translateZ(100px);
+}
+.span8{
+    transform: translate(-50%,-50%) rotateX(calc(8 * 22.5deg)) translateZ(100px);
+}
+.span9{
+    transform: translate(-50%,-50%) rotateX(calc(9 * 22.5deg)) translateZ(100px);
+}
+.span10{
+    transform: translate(-50%,-50%) rotateX(calc(10 * 22.5deg)) translateZ(100px);
+}
+.span11{
+    transform: translate(-50%,-50%) rotateX(calc(11 * 22.5deg)) translateZ(100px);
+}
+.span12{
+    transform: translate(-50%,-50%) rotateX(calc(12 * 22.5deg)) translateZ(100px);
+}
+.span13{
+    transform: translate(-50%,-50%) rotateX(calc(13 * 22.5deg)) translateZ(100px);
+}
+.span14{
+    transform: translate(-50%,-50%) rotateX(calc(14 * 22.5deg)) translateZ(100px);
+}
+.span15{
+    transform: translate(-50%,-50%) rotateX(calc(15 * 22.5deg)) translateZ(100px);
+}
+.span16{
+    transform: translate(-50%,-50%) rotateX(calc(16 * 22.5deg)) translateZ(100px);
+}
+
+
+span i:nth-child(1) {   
+  font-style: initial;
+  color: rgb(223, 3, 3);
+}
+span i:nth-child(2) {
+  font-style: initial;
+  color: rgb(2, 108, 170);
+}
+span i:nth-child(3) {
+  font-style: initial;
+  color: rgb(62, 59, 223);
+}

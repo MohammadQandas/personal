@@ -1,0 +1,17 @@
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardTracker{
+ position: relative;
+ /* top:90px; */
+    border: 1px solid red ;
+    box-shadow: 5px 10px 5px 5px #888888;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
